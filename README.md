@@ -8,12 +8,7 @@ A dummy FastAPI microservice deployed with Docker to Azure App Service.
 uvicorn app.main:app --reload
 ```
 
-## Docker Run
 
-```bash
-docker build -t topic-classifier .
-docker run -p 8000:80 topic-classifier
-```
 
 ## Predict Example
 
